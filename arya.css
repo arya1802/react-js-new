@@ -1,0 +1,113 @@
+body{
+    color:#000000;
+    text-decoration:underline;
+    text-transform:uppercase;
+    text-indent:15px;
+    font-family:arial;
+    font-size:25px;
+    
+ 
+}
+.header{
+    background-image: url("A1.jpg");
+    background-color: black;
+  
+    display: flex;
+    justify-content: space-betWEEN;
+  object-position: center;
+    }   
+     .sitedis{
+   color: azure;
+    text-decoration: dotted;
+   font-size: 30px;
+    text-decoration-color: blanchedalmond;
+margin-left: 400px;
+margin-top: 300px;
+margin-bottom:300px;
+     }
+     .AD{
+         margin-left: 200px;
+     }
+     a{
+         margin-top: 60px;
+     }
+     a:link{
+        color:black;
+       
+    }
+    a:visited{
+    
+        color:blue;
+    }
+    
+     .suma{
+
+        background-color:rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-evenly;
+     }
+     .ABC{
+        background-color:	#000000;
+        display: flex;
+        justify-content: space-evenly;
+     }
+     .chumma{
+
+ background-color:	#000000;
+        display: flex;
+        justify-content: space-evenly;
+
+     }
+     .ABCD{
+        background-color:	#000000;
+        display: flex;
+        justify-content: space-evenly;   
+     }
+    
+    .item{
+    
+    
+        position: relative;
+    }
+    .item p{
+    font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% ,-50%);
+        opacity: 0;
+    }
+    .item:hover p{
+    opacity: 1;
+    
+    }
+    .item:hover img{
+        opacity: 0.60;
+        
+        }
+        
+    .IND{
+        background-image: url("A2.jpg");
+        background-color:	#000000;
+        text-align: center;
+    }
+    .IN{
+        background-image: url("A1.jpg");
+        background-color:	#000000;
+        text-align: center;
+    }
+    .OUT{
+        background-image: url("A2.jpg");
+        background-color:	#000000;
+        text-align: center;
+    }
+    .INDI{
+        background-image: url("A1.jpg");
+        background-color:	#000000;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .A{
+        margin-top: 40px;
+    }
